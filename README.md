@@ -23,4 +23,4 @@ It includes a multi-round match system (Best of 3, 5, 7 or custom rounds) with r
 (Add your GitHub Pages link here after enabling it)
 
 ## 👩‍💻 Developed By
-Upasana Agarwal
+Upasana Agarawal
