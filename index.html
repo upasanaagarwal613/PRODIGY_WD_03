@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ultimate Tic Tac Toe</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="task03.css">
+</head>
+<body>
+
+<div class="game-container">
+
+<h1>Ultimate Tic Tac Toe</h1>
+
+Match Type :
+<select id="roundSelect">
+<option value="3">Best of 3</option>
+<option value="5">Best of 5</option>
+<option value="7">Best of 7</option>
+<option value="custom">Custom</option>
+</select>
+
+<br>
+<input type="number" id="customRounds" placeholder="Enter rounds" min="1" style="display:none">
+<br>
+<button onclick="startMatch()">Start Match</button>
+
+<div class="score">
+❌ X : <span id="xScore">0</span> |
+⭕ O : <span id="oScore">0</span>
+</div>
+
+<div class="status" id="status">Select match type</div>
+
+<div class="board" id="board"></div>
+
+<button onclick="resetMatch()">Reset Match</button>
+
+</div>
+
+<script src="task03.js"></script>
+</body>
+</html>
